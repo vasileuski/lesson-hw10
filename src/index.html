@@ -9,24 +9,44 @@
    <link rel="stylesheet" href="./scss/main.scss">
 </head>
 <body>
-   <div class="product-card">
-      <img src="./image/sofa.png" alt="Sofa" class="product-card__image">
+   <div class="container">
+      <div class="product-card">
+         <img src="./image/sofa.png" alt="Sofa" class="product-card__image">
+         
+   
+         <div class="product-card__info">
+            <div class="product-card__main-info">
+               <h2 class="product-card__name">Кускен Navy Blue</h2>
+               <h2 class="product-card__price">16 990₽</h2>
+            </div>
+            
+            <div class="product-card__second-info">
+               <p>Цвет: <span class="product-card__parametres-gray">Темно-синий</span></p>
+               <img src="./image/svg/color-option.svg" alt="color" class="product-card__color-square" />
+               <p> Количество: <span class="product-card__parametres-gray">1</span></p>
+               <p>Размер(Ш×Д×В): <span class="product-card__parametres-gray">218 СМ × 95 СМ × 90 СМ</span>
+               </p>
+            </div>
 
-      <div class="product-card__info">
-         <div class="product-card__main-info">
-            <h2 class="product-card__name">Кускен Navy Blue</h2>
-            <h2 class="product-card__price">16 990₽</h2>
+            <div class="product-card__info-mobile">
+               <p class="product-card__quantity-mobile">1</p>
+               <p class="product-card__price-mobile">16 990₽</p>
+            </div>
+
+            <div class="second-info__mobile">
+               <p>Цвет: <span class="second-info__parametres-gray">Темно-синий</span></p>
+               <img src="./image/svg/color-option.svg" alt="color" class="product-card__color-square" />
+               <p>Размер(Ш×Д×В): <span class="second-info__parametres-gray">218 СМ × 95 СМ × 90 СМ</span>
+               </p>
+            </div>
+           
          </div>
-         <div class="product-card__second-info">
-            <p>Цвет: <span class="product-card__parametres-gray">Темно-синий</span></p>
-            <img src="./image/svg/color-option.svg" alt="color" class="product-card__color-square" />
-            <p> Количество: <span class="product-card__parametres-gray">1</span></p>
-            <p>Размер(Ш×Д×В): <span class="product-card__parametres-gray">218 СМ × 95 СМ × 90 СМ</span>
-            </p>
-         </div>
+
+         
+   
+         <button class="product-card__close-button">X</button>
       </div>
-
-      <button class="product-card__close-button">X</button>
    </div>
+   
 </body>
 </html>
