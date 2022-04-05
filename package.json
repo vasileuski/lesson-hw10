@@ -1,0 +1,19 @@
+{
+  "name": "lesson-10",
+  "version": "1.0.0",
+  "description": "classwork 10",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artsiom Vasileuski",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9"
+  }
+}
